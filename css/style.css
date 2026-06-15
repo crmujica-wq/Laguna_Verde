@@ -73,3 +73,7 @@
 .target-section {
     padding-top: 80px !important;
 }
+
+.fs-8 {
+    font-size: 0.75rem;
+}
