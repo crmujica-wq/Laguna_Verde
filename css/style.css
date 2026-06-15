@@ -77,3 +77,7 @@
 .fs-8 {
     font-size: 0.75rem;
 }
+
+.estrella-dorada {
+    color: #ffc107 !important; /* El !important obliga al navegador a usar este amarillo de Airbnb */
+}
