@@ -1,0 +1,52 @@
+/* Paleta de Colores y Ajustes */
+:root {
+    --teal-color: #00a896;
+}
+
+.text-teal { color: var(--teal-color) !important; }
+.btn-teal { background-color: var(--teal-color); border-color: var(--teal-color); }
+.btn-teal:hover { background-color: #028074; }
+
+.fs-7 { font-size: 0.8rem; }
+.tracking-wide { letter-spacing: 2px; }
+.tracking-tight { letter-spacing: 1px; font-weight: 600; }
+
+/* Navegación con iconos */
+.nav-iconos .nav-link {
+    color: #555 !important;
+    border-bottom: 2px solid transparent;
+}
+.nav-iconos .nav-link:hover, .nav-iconos .nav-link.active {
+    color: var(--teal-color) !important;
+}
+
+/* Banner Hero usando TU foto real */
+.hero-premium {
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../img/cabana-interior.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 65vh;
+}
+
+.btn-outline-white {
+    color: white;
+    border: 2px solid white;
+    background: transparent;
+    transition: all 0.3s;
+}
+.btn-outline-white:hover {
+    background: white;
+    color: #333;
+}
+
+/* Buscador Flotante */
+.contenedor-buscador {
+    margin-top: -50px;
+    position: relative;
+    z-index: 10;
+}
+
+/* Sección de Reseñas */
+.target-section {
+    padding-top: 80px !important;
+}
