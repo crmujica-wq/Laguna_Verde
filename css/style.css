@@ -81,3 +81,13 @@
 .estrella-dorada {
     color: #ffc107 !important; /* El !important obliga al navegador a usar este amarillo de Airbnb */
 }
+/* Banner sobre las reseñas */
+.banner-resenas {
+    /* Reemplaza 'cabana-entorno.jpg' por el nombre de tu nueva foto */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/cabana-entorno.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Mantiene un efecto de movimiento (parallax) elegante al scrollear */
+    height: 250px; /* Altura del banner */
+    width: 100%;
+}
